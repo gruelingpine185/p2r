@@ -9,6 +9,9 @@ const port = 3000;
 // set view engine
 app.set('view engine', 'ejs');
 
+// set static files
+app.use('/public', express.static(path.join(__dirname, 'public')))
+
 // index
 app.use('/', (req, res) => {
     res.render('index');
