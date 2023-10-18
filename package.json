@@ -1,17 +1,13 @@
 {
   "name": "p2r",
   "version": "1.0.0",
-  "description": "History digital project",
+  "description": "History 101 digital project",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "gruelingpine185",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
