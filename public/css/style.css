@@ -59,8 +59,22 @@ p {
     margin-left: 2em;
 }
 
+.post-header {
+    width: fit-content;
+    margin: 0 auto 2em auto;
+}
+
 .post-meta {
     margin-bottom: 1em;
+}
+
+.post-metadata {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-date {
+    text-align: right;
 }
 
 .navbar-con {
