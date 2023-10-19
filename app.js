@@ -23,7 +23,6 @@ const entries = {
             date: '10/18/23',
             desc: 'blah blah blah',
             path: '/sumerians'
-            }
         }
     ]
 };
