@@ -7,20 +7,20 @@
     <div class="content-con">
         <div class="header-block">
             <h1>History 101: Western Civilizations</h1>
-            <p>A digital project by Adrian Bostic</p>
+            <p>A digital project by <%= author %></p>
         </div>
-        <div class="entry-con">
-            <% entries.forEach((entry) => { %>
-            <div class="entry-meta">
-                <div class="entry-meta-top">
-                    <h4 class="entry-meta-date"><%= entry.date %></h4>
+        <div class="post-con">
+        <% posts.forEach((post) => { %>
+            <div class="post-meta">
+                <div class="post-meta-top">
+                    <h4 class="post-meta-date"><%= post.date %></h4>
                     <h3>
-                        <a href="<%= entry.path %>"><%= entry.title %></a>
+                        <a href="<%= post.path %>"><%= post.title %></a>
                     </h3>
                 </div>
-                <p class="entry-meta-desc"><%= entry.desc %></p>
+                <p class="post-meta-desc"><%= post.desc %></p>
             </div>
-            <% }) %>
+        <% }) %>
         </div>
     </div>
 </body>

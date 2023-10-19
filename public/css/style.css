@@ -1,5 +1,8 @@
 @font-face {
-    src: local('Noto Sans Regular'), local('NotoSans-Regular'), url('../fonts/NotSans-Regular.ttf');
+    src:
+        local('Noto Sans Regular'),
+        local('NotoSans-Regular'),
+        url('../fonts/NotSans-Regular.ttf');
     font-family: 'noto sans';
 }
 
@@ -40,22 +43,22 @@ p {
     width: 80%;
 }
 
-.entry-meta-top {
+.post-meta-top {
     display: flex;
     flex-direction: row;
 }
 
-.entry-meta-date {
+.post-meta-date {
     margin-top: 0;
     margin-right: 2em;
 }
 
-.entry-meta-desc {
+.post-meta-desc {
     margin-left: 2em;
 }
 
-.entry-meta {
-    margin-bottom: 30px;
+.post-meta {
+    margin-bottom: 1em;
 }
 
 .navbar-con {

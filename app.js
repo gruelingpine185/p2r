@@ -13,19 +13,35 @@ app.set('view engine', 'ejs');
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
 
-const entries = [
-    {
-        title: 'A People to Remember - Sumerians',
-        date: '10/18/23',
-        desc: 'blah blah blah',
-        path: '/sumerians'
-    }
-];
+const postPrefix = 'A People to Remember';
+
+const entries = {
+    author: 'Adrian Bostic',
+    posts: [
+        {
+            title: `${postPrefix} - Sumerians`,
+            date: '10/18/23',
+            desc: 'blah blah blah',
+            path: '/sumerians',
+            content: {}
+        }
+    ]
+};
+
 
 // index
-app.use('/', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index', {
-        entries: entries
+        author: entries.author,
+        posts: entries.posts
+    });
+});
+
+// sumerians
+app.get('/sumerians', (req, res) => {
+    res.render('sumerians', {
+        author: entries.author,
+        post: entries.posts[0]
     });
 });
 
