@@ -1,3 +1,8 @@
+@font-face {
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'), url('../fonts/NotSans-Regular.ttf');
+    font-family: 'noto sans';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +13,7 @@ body {
     background: var(--bg);
     color: var(--fg);
     overflow-x: hidden;
+    font-family: 'noto sans';
 }
 
 a {
