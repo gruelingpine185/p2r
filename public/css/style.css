@@ -7,12 +7,43 @@
 body {
     background: var(--bg);
     color: var(--fg);
+    overflow-x: hidden;
 }
 
 a {
     color: var(--link);
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--header);
+}
+
+p {
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.content-con {
+    margin: 0 auto;
+    width: 80%;
+    /* background: var(--link); */
+}
+
+.entry-meta-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.entry-meta-date {
+    margin-top: 0;
+    margin-right: 2em;
+}
+
+.entry-meta-desc {
+    margin-left: 2em;
+}
+
+.entry-meta {
+    margin-bottom: 30px;
 }

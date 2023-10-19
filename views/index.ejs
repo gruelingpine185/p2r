@@ -4,5 +4,20 @@
     <%- include('partials/head') -%>
 </head>
 <body>
+    <div class="content-con">
+        <div class="entry-con">
+            <% entries.forEach((entry) => { %>
+            <div class="entry-meta">
+                <div class="entry-meta-top">
+                    <h4 class="entry-meta-date"><%= entry.date %></h4>
+                    <h3>
+                        <a href="<%= entry.path %>"><%= entry.title %></a>
+                    </h3>
+                </div>
+                <p class="entry-meta-desc"><%= entry.desc %></p>
+            </div>
+            <% }) %>
+        </div>
+    </div>
 </body>
 </html>
