@@ -22,8 +22,8 @@ const entries = {
             title: `${postPrefix} - Sumerians`,
             date: '10/18/23',
             desc: 'blah blah blah',
-            path: '/sumerians',
-            content: {}
+            path: '/sumerians'
+            }
         }
     ]
 };
