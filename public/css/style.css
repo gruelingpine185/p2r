@@ -151,3 +151,14 @@ img {
     margin-right: 20%;
     width: 20%;
 }
+
+.citation {
+    text-align: left;
+    overflow-wrap: break-word;
+    font-size: 10pt;
+}
+
+.caption {
+    color: var(--header);
+    font-size: 10pt;
+}
