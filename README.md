@@ -15,14 +15,20 @@ git clone https://github.com/gruelingpine185/p2r
 cd ./p2r
 ```
 
-2. Start the NodeJS server
+2. Install project dependencies
+
+```sh
+npm install
+```
+
+3. Start the NodeJS server
 
 ```sh
 node .
 ```
 
-Once running, the program will output a link pointing to the local host. Open it in a browser to view the site.
+Once the program is running, it will output a link pointing to the local host. Open it in a browser to view the site.
 
-3. Don't forget to terminate NodeJS
+4. Don't forget to terminate NodeJS
 
 After viewing the website, go back to the terminal and press `Ctrl-C` to stop the server.
