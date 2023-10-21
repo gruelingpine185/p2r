@@ -15,14 +15,34 @@ app.use('/public', express.static(path.join(__dirname, 'public')))
 
 const postPrefix = 'A People to Remember';
 
-const entries = {
+const headerToID = (header) => {
+    if(!header.length) return;
+
+    let id = header.toLowerCase().replace(/[^A-Za-z0-9]+/g, '-');
+    return id;
+};
+
+
+const globals = {
+    title: postPrefix,
     author: 'Adrian Bostic',
+    headerToID
+};
+
+const entries = {
     posts: [
         {
             title: `${postPrefix} - Sumerians`,
             date: '10/18/23',
             desc: 'blah blah blah',
-            path: '/sumerians'
+            path: '/sumerians',
+            headings: [
+                'Language and Writing',
+                'Technology',
+                'Religion',
+                'Economics',
+                'Poetry'
+            ]
         }
     ]
 };
@@ -39,6 +59,7 @@ app.get('/', (req, res) => {
 // sumerians
 app.get('/sumerians', (req, res) => {
     res.render('sumerians', {
+        global: globals,
         author: entries.author,
         post: entries.posts[0]
     });

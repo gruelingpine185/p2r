@@ -1,0 +1,18 @@
+<div class="sidebar">
+    <h3>
+        <a href="#<%= global.headerToID(post.title) %>">
+            <%= post.title %>
+        </a>
+    </h3>
+    <hr>
+    <ul>
+        <% for(let i = 0; i < post.headings.length; i++) { %>
+        <li>
+            <a class="sidebar-heading" href="#<%= global.headerToID(post.headings[i]) %>">
+                <%= post.headings[i] %>
+            </a>
+        </li>
+        <% } %>
+    </ul>
+    <hr>
+</div>
