@@ -7,7 +7,7 @@
     <div class="content-con">
         <div class="header-block">
             <h1>History 101: Western Civilizations</h1>
-            <p>A digital project by <%= author %></p>
+            <p>A digital project by <%= global.author %></p>
         </div>
         <div class="post-con">
         <% posts.forEach((post) => { %>
@@ -18,7 +18,6 @@
                         <a href="<%= post.path %>"><%= post.title %></a>
                     </h3>
                 </div>
-                <p class="post-meta-desc"><%= post.desc %></p>
             </div>
         <% }) %>
         </div>
