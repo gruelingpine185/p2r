@@ -1,6 +1,6 @@
 # Digital Project
 
-This is my revamped History 101 Digital Project assignment. This is repo was rebuilt to be more maintainable and easier to extend. Unlike the original website, extra steps need to be taken to get this working properly.
+This is my revamped History 101 Digital Project assignment. This is repo was rebuilt to be more maintainable and easier to extend. Unlike the [original website](https://github.com/gruelingpine185/his101), extra steps need to be taken to get this working properly.
 
 ## Prerequisites
 
