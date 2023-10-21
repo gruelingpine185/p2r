@@ -33,7 +33,7 @@ const entries = {
     posts: [
         {
             title: `${postPrefix} - Sumerians`,
-            date: '10/18/23',
+            date: '10/21/23',
             desc: 'blah blah blah',
             path: '/sumerians',
             headings: [
@@ -51,6 +51,7 @@ const entries = {
 // index
 app.get('/', (req, res) => {
     res.render('index', {
+        global: globals,
         author: entries.author,
         posts: entries.posts
     });
