@@ -31,10 +31,12 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--header);
+    margin-bottom: 1em;
 }
 
 p {
     margin-top: 1em;
+    margin-bottom: 1em;
     line-height: 2em;
     text-align: justify;
     width: 60%;
@@ -75,7 +77,13 @@ hr {
 
 .post-header {
     width: fit-content;
-    margin: 4em 0;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.post-header * {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .post-meta {
