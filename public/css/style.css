@@ -70,6 +70,10 @@ img {
     max-width: 60%;
 }
 
+sup > a {
+    color: var(--link);
+}
+
 .header-block {
     text-align: center;
     margin-bottom: 2em;
