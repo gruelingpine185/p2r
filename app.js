@@ -42,6 +42,14 @@ const entries = {
                 'Religion',
                 'Economics',
                 'Poetry'
+            ],
+            citations: [
+                'Harrsch, Mary. Dagger Iran Luristan 2600-2350 BCE Bronze. Photograph, https://upload.wikimedia.org/wikipedia/commons/9/9d/Dagger_Iran_Luristan_2600-2350_BCE_Bronze.jpg.',
+                'Mbzt. Limestone, Uruk III era, late 4th millennium BC. J.-C, https://commons.wikimedia.org/wiki/File:P1150884_Louvre_Uruk_III_tablette_%C3%A9criture_pr%C3%A9cun%C3%A9iforme_AO19936_rwk.jpg.',
+                'Osama Shukir Muhammed, Amin. Photograph, 29 Jan. 2014, https://commons.wikimedia.org/wiki/File:Four_statuettes_of_Mesopotamian_gods.jpg.',
+                '\"Poetry.\" The Ancient Near East: An Encyclopedia for Students, edited by Ronald Wallenfels and Jack M. Sasson, vol. 4, Charles Scribner\'s Sons, 2000, pp. 4-5. Gale In Context: World History, link.gale.com/apps/doc/CX2897300315/WHIC?u=viva2_nvcc&sid=bookmark-WHIC&xid=4ed45fc2. Accessed 3 Sept. 2023.',
+                'Langdon, Stephen. Tablet of the Gilgamish Epic (Obverse). Photograph, 1 Jan. 1917, https://commons.wikimedia.org/wiki/File:Tablet_of_the_Gilgamish_Epic_(Obverse).jpg.',
+                'Walthall, Jasmine. Photograph, 13 Mar. 2009, https://commons.wikimedia.org/wiki/File:Ruins_from_a_temple_in_Naffur.jpg.'                
             ]
         }
     ]
