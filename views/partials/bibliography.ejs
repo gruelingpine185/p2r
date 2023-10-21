@@ -1,0 +1,10 @@
+<h2 id="bibliography">
+    <a href="#bibliography">Bibliography</a>
+</h2>
+<ol>
+<% for(let i = 0; i < post.citations.length; i++) { %>
+    <li>
+        <p class="citation" id="cite-<%= i + 1 %>"><%= post.citations[i] %></p>
+    </li>
+<% } %>
+</ol>
