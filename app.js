@@ -56,9 +56,11 @@ const entries = {
             date: '10/22/23',
             path: '/egyptians',
             headings: [
-                ''
+                'Papyrus'
             ],
-            citations: []
+            citations: [
+                '\"Papyrus of Hunefer.\" Wikimedia Commons. Accessed October 22, 2023. https://commons.wikimedia.org/wiki/File:Book_of_the_Dead_of_Hunefer_sheet_3.jpg.'
+            ]
         }
     ]
 };
