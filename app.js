@@ -34,7 +34,6 @@ const entries = {
         {
             title: `${postPrefix} - Sumerians`,
             date: '10/21/23',
-            desc: 'blah blah blah',
             path: '/sumerians',
             headings: [
                 'Language and Writing',
