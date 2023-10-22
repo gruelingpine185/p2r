@@ -51,6 +51,15 @@ const entries = {
                 'Langdon, Stephen. Tablet of the Gilgamish Epic (Obverse). Photograph, 1 Jan. 1917, https://commons.wikimedia.org/wiki/File:Tablet_of_the_Gilgamish_Epic_(Obverse).jpg.',
                 'Walthall, Jasmine. Photograph, 13 Mar. 2009, https://commons.wikimedia.org/wiki/File:Ruins_from_a_temple_in_Naffur.jpg.'                
             ]
+        },
+        {
+            title: `${postPrefix} - Egyptians`,
+            date: '10/22/23',
+            path: '/egyptians',
+            headings: [
+                ''
+            ],
+            citations: []
         }
     ]
 };
@@ -70,7 +79,20 @@ app.get('/sumerians', (req, res) => {
     res.render('sumerians', {
         global: globals,
         author: entries.author,
-        post: entries.posts[0]
+        post: entries.posts[0],
+        previous: '/',
+        next: entries.posts[1].path
+    });
+});
+
+// egyptians
+app.get('/egyptians', (req, res) => {
+    res.render('egyptians', {
+        global: globals,
+        author: entries.author,
+        post: entries.posts[1],
+        previous: entries.posts[0].path,
+        next: ''
     });
 });
 
