@@ -6,6 +6,7 @@ This is my revamped History 101 Digital Project assignment. This is repo was reb
 
 - [Prerequisites](#prerequisites)
 - [Local Hosting](#local-hosting)
+- [Screenshots](#screenshots)
 
 ## Prerequisites
 
@@ -37,3 +38,7 @@ Once the program is running, it will output a link pointing to the local host. O
 4. Don't forget to terminate NodeJS
 
 After viewing the website, go back to the terminal and press `Ctrl-C` to stop the server.
+
+## Screenshots
+
+As development continues, feel free to check the `screenshots/` directory for fullpage screenshots. This is alternative to dealing with NodeJS if it isn't already set up. I'll make an effort to keep them up to date.
